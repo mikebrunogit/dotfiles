@@ -1,0 +1,53 @@
+# Arquivo de configuração do Alacritty (TOML)
+
+[font]
+normal = { family = "JetBrains Mono"}
+bold = { family = "JetBrains Mono"}
+italic = { family = "JetBrains Mono", style = "Italic" }
+
+# Cores
+[colors]
+[colors.primary]
+background = "0x1D1F21"
+foreground = "0xC5C8C6"
+
+[colors.cursor]
+text = "0x1D1F21"
+cursor = "0xC5C8C6"
+
+[colors.normal]
+black   = "0x1D1F21"
+red     = "0xCC6666"
+green   = "0xB5BD68"
+yellow  = "0xF0C674"
+blue    = "0x81A2BE"
+magenta = "0xB294BB"
+cyan    = "0x8ABEB7"
+white   = "0xC5C8C6"
+
+[colors.bright]
+black   = "0x666666"
+red     = "0xD54E53"
+green   = "0xB9CA4A"
+yellow  = "0xE7C547"
+blue    = "0x7AA6DA"
+magenta = "0xC397D8"
+cyan    = "0x70C0B1"
+white   = "0xFFFFFF"
+
+# Comportamento da janela
+[window]
+opacity = 0.8
+padding = { x = 10, y = 10 }
+dynamic_padding = true
+decorations = "full"  # Opções: none, full, transparent, buttonless
+startup_mode = "Windowed"  # Opções: Fullscreen, Maximized, Windowed
+
+# Configuração de scrolling
+[scrolling]
+history = 10000
+multiplier = 3
+
+
+
+
